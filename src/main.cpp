@@ -7,6 +7,7 @@
  */
 
 #include "utility.h" 
+#include "sort.h" 
 
 #define MAX_LEN 10
 
@@ -25,6 +26,12 @@ int main(void)
         a[i] = GetRand(10);
     }
 
+    cout << "排序前：" << endl;
+    Display(a, MAX_LEN);
+
+    mysort(a);
+
+    cout << "排序后：" << endl;
     Display(a, MAX_LEN);
 
     cout << "pass time is " << timer.getTime() << "s." << endl;

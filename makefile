@@ -1,4 +1,4 @@
-TARGET := test
+TARGET := main 
  
 CC := g++ 
  

@@ -33,7 +33,7 @@ enum StatusCode
 
 #define DEFAULT_SIZE        100         //默认元素个数
 #define DEFAULT_INFINIYT    0x3F3F3F3F  //无穷大 
-#define CLK_TCK             18.2
+#define MAX_LEN             10          //数组大小
 
 char GetChar();    //获取字符（忽略空格和tab）
 bool UserSayYes();                  //用户输入y/n
@@ -95,12 +95,5 @@ class Error
         ~Error(void) {};
         void Show() const;
 };
-
-
-
-
-
-
-
 
 #endif

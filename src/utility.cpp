@@ -76,7 +76,7 @@ double Timer::getTime()        //获取运动时间
 {
     clock_t endTime = clock();
 
-    return (double)(endTime-startTime)/(double)CLK_TCK;
+    return (double)(endTime-startTime)/(double)CLOCKS_PER_SEC;
 
 }
 void Timer::reset()            //重置时间
