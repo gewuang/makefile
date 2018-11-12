@@ -19,6 +19,8 @@ int main(void)
     int i = 0;
     SimpleLinkList<int> linklist;
 
+    cout << "this is test log" << endl;
+
     timer.reset();
 
     cout << "hello world!" << endl;
